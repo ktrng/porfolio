@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+body {
+  background: white;
+  color: #94bed1;
+  font-size: 1.7rem;
+  font-family: 'Mukta', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.aboutme {
+  text-align: center;
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile {
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.aboutText {
+  width: 50%;
+  text-align: left;
+}
+
+h2 {
+  color: black;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.header-underline {
+  margin: 0 auto 2% auto;
+  width: 6%;
+  border-bottom: 2px solid black;
+}
+
+.seperator {
+  width: 83%;
+  margin: 5% auto 0 auto;
+  border-bottom: 2px solid black;
+}
+
+p {
+  color: #94bed1;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #94bed1;
+}
+img {
+  width: 80%;
+  height: auto;
+}
+
+#starwars {
+  font-family: 'Roboto Mono', sans-serif;
+  color: turquoise;
+}
+
+#manga {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: darkorange;
+}
+
+#culinary {
+  font-family: Arial, sans-serif;
+  color: #ffb366;
+}
+
+#socialsesh {
+  font-family: 'Rampart One', sans-serif;
+  color: lightblue;
+}
+
+#supplymanagr {
+  font-family: 'Nunito', sans-serif;
+  color: darkorange;
+}
