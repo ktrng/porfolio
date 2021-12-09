@@ -41,7 +41,7 @@ header {
 
 h2 {
   color: black;
-  margin-bottom: 0;
+  margin: 1% auto 0 auto;
   padding: 0;
 }
 
@@ -53,7 +53,7 @@ h2 {
 
 .seperator {
   width: 83%;
-  margin: 5% auto 0 auto;
+  margin: 5% auto 3% auto;
   border-bottom: 2px solid black;
 }
 
@@ -66,10 +66,40 @@ a {
   text-decoration: none;
   color: #94bed1;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
 img {
   width: 80%;
   height: auto;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tech {
+  margin: 0;
+}
+
+ul {
+  margin-top: 0;
+}
+
+.links {
+  text-align: center;
+}
+
 
 #starwars {
   font-family: 'Roboto Mono', sans-serif;
@@ -94,4 +124,8 @@ img {
 #supplymanagr {
   font-family: 'Nunito', sans-serif;
   color: darkorange;
+}
+
+footer {
+  text-align: center;
 }
